@@ -1,0 +1,299 @@
+body
+{
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #242929;
+    font-size: 20px;
+   
+}
+/* Navbar */
+.heading
+{
+    background-color: #37517e
+}
+
+#mynavbar
+{
+    margin-left: 100px;
+}
+
+.navbar-brand
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-item
+{
+  color: white;
+  margin-left: 10px;
+  padding: 7px;
+}
+.nav-item:hover
+{
+  background-color: #47b2e4;
+  border-radius: 10px;
+  
+}
+/* Home page  */
+#home
+{
+    width:100%;
+    height: 100%;
+    background-color: #37517e;
+    padding: 100px;
+    overflow: hidden;
+    
+}
+.container-fluid
+{
+    
+    margin-left: 100px;
+}
+ #home h1{
+    margin-top: 150px;
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    
+ }
+ #home h2{
+    margin-top: 10px;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+    font-size: 20px;
+
+ }
+  .btn-get-started
+ {
+    margin-top: 20px;
+    font-size:20px;
+    color: #47b2e4;
+    outline: #47b2e4;
+    border: #47b2e4 1px solid;
+ }
+ .btn-get-started:hover
+ {
+    margin-top: 20px;
+    font-size:20px;
+    color: white;
+    background-color:#47b2e4 ;
+ }
+
+ /* ABout us Style */
+.about-heading
+ {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #37517e;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ .horizontal-slider
+ {
+    padding-top: 40px;
+    border-bottom: #242929 solid;
+   
+ }
+#about h2{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+#about p{
+    margin-top: 10px;
+    color: grey;
+}
+
+.mystyle h1{
+    color: #37517e;
+    margin-top: 100px;;
+    font-weight: bold;
+}
+.mystyle h3{
+    color: black;
+   
+   font-weight: bold;
+   font-size: 25px;
+}
+
+/*  Image Style */
+.image-heading
+ {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #37517e;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+
+.mySlides 
+{
+    display: none
+}
+img 
+{
+  margin-top: 10px;
+    vertical-align: middle;
+    width:100%;
+}
+
+
+.slideshow-container {
+max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*Services Style*/
+#service
+{
+
+  height: 500px;
+  padding-top: 50px;
+  background-color: #f3f5fa;
+}
+.service-heading
+{
+  margin-top: 0px;
+  font-size: 40px;
+  color: #37517e;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.service-para
+{
+  color: gray;
+}
+
+.icon-box i{
+  padding-top: 20px;
+  color: #47b2e4;
+  font-size: 30px;
+}
+.icon-box h3{
+  padding-top: 20px;
+  color: #37517e;
+  font-size: 25px;
+  font-weight: bold;
+}
+.icon-box p{
+  padding-top: 20px;
+  color: #37517e;
+  font-size: 20px;
+ 
+}
+
+
+.add-shadow 
+{
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  width: 300px;
+  margin: 10px;
+  background-color: white;
+ border-radius: 10px;
+ margin-bottom: 100px;;
+}
+#ctc
+{
+  padding-top: 50px;
+
+  height: 100%;
+ 
+ 
+  overflow: hidden;
+}
+.ctc
+{
+
+  background-image: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),url("/image/img3.jpg ");
+  width: 100%;
+  height: 400px;
+  background-size: cover;   
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position:center;
+  padding: 120px 10px;
+  color:white;
+  font-weight: bold;
+}
+
+.ctc a{
+  float:right;
+}
